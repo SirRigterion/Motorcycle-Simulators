@@ -36,8 +36,6 @@ python -m tkinter
 - `dist/MotorcycleSimulator.exe` — обычная версия.
 - `dist/MotorcycleSimulatorCrazy.exe` — Crazy Edition.
 
-Для публикации `.exe` на GitHub загрузите эти файлы в раздел **Releases** репозитория. Каталог `dist/` исключён из Git, поэтому сборки не попадут в репозиторий при обычном `git push`.
-
 Чтобы пересобрать приложения на Windows, откройте PowerShell в корне проекта и выполните:
 
 ```powershell
@@ -96,7 +94,7 @@ python motoCRAZY.py
 ├── motoCRAZY.py
 ├── README.md
 ├── .gitignore
-└── dist/  # готовые .exe (исключены из Git)
+└── dist/  # готовые .exe
 ```
 
 ## Лицензия
